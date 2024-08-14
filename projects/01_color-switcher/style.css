@@ -1,0 +1,32 @@
+.container {
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.button {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#white {
+    background-color: white;
+}
+
+#grey {
+    background-color: grey;
+}
+
+#red {
+    
+    background-color: red;
+}
+#yellow {
+    background-color: yellow;
+}
+#purple {
+    background-color: purple;
+}
