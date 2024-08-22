@@ -304,7 +304,7 @@
 // ]).then(console.log)
 
 
-// ================= MAP and SET ==================== //
+// ================= Before going ahead MAP and SET ==================== //
 
 
 // let map = new Map();
@@ -348,3 +348,16 @@
 // obj["name"] = "John"
 
 // console.log(obj);
+
+
+let john = { name: "John" };
+let ben = { name: "Ben" };
+
+let visitsCountObj = {}
+
+visitsCountObj[ben] = 234;
+const a = visitsCountObj[john] = 123;
+
+console.log(a);
+
+// console.log(visitsCountObj[john])
