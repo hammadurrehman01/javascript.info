@@ -350,14 +350,80 @@
 // console.log(obj);
 
 
-let john = { name: "John" };
-let ben = { name: "Ben" };
+// let john = { name: "John" };
+// let ben = { name: "Ben" };
 
-let visitsCountObj = {}
+// let visitsCountObj = {}
 
-visitsCountObj[ben] = 234;
-const a = visitsCountObj[john] = 123;
+// visitsCountObj[ben] = 234;
+// const a = visitsCountObj[john] = 123;
 
-console.log(a);
+// console.log(a);
 
 // console.log(visitsCountObj[john])
+
+
+// const promise = Promise.resolve({ data: { name: "Hammad", age: 20 }, status: 200 })
+//     .then((res) => console.log(res))
+//     .then(() => console.log("Another console"))
+
+// console.log();
+
+
+// const promise = Promise.reject(new Error("Promise Failed!"));
+// promise.catch((err => console.log("Internal Server", err)));
+
+// window.addEventListener('unhandledrejection', event => console.log(event))
+
+
+// let promise = Promise.reject(new Error("Promise Failed!"));
+
+
+// let promise = Promise.reject(new Error("Promise Failed!"));
+// setTimeout(() => promise.catch(err => console.log('caught')), 1000);
+
+// window.addEventListener('unhandledrejection', event => alert(event.reason));
+
+
+
+// async function test() {
+//     return 1
+// } 
+
+// test().then((res) => console.log(res))
+
+// async function test2() {
+//    Promise.resolve(2)
+// }
+
+// test2().then(res => console.log(res))
+
+// async function f() {
+//     let promise = new Promise((resolve, reject) => {
+//         setTimeout(() => resolve("Done!") , 1000);
+//     })
+
+//     let result = await promise;
+//     console.log(result);
+// }
+
+// f()
+
+
+// async function loadJson(url) {
+//     try {
+//         const response = await fetch(url);
+//         if (response.status == 200) {
+//             const result = response.json();
+//             return result;
+//         } else {
+//             throw new Error(response.status || "Internal Server Error")
+//         }
+//     } catch (error) {
+//         console.log(error)
+//     }
+
+// }
+
+// loadJson('https://javascript.info');
+
